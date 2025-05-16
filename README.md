@@ -2,7 +2,7 @@
 
 **Smarter returns through direct customer-to-customer shipping.**
 
-Match & Send connects customers who want to return a product with other customers who want to buy the exact same item. The product is shipped directly from one customer to another. The buyer receives a discount, while the platform eliminates warehouse and logistics costs. AI handles the matching, and Stripe Connect secures the payment via escrow.
+Chainable connects customers who want to return a product (customer A) with other customers who want to buy the exact same item (customer B). The product is shipped directly from customer A to B. Custoemr B receives a discount, while the platform eliminates warehouse and logistics costs. AI handles the matching, and Stripe Connect secures the payment via escrow.
 
 ---
 
