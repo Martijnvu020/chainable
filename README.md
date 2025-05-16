@@ -1,4 +1,4 @@
-# chainable - AI-Powered C2C Fulfilment
+# Chainable - AI-Powered C2C Fulfilment
 
 **Smarter returns through direct customer-to-customer shipping.**
 
