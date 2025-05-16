@@ -1,2 +1,2 @@
 # chainable
-AI-powered C2C retourplatform met directe verzending tussen klanten via escrow
+AI-powered C2C returnplatform with direct sending between customers via escrow
