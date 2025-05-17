@@ -6,8 +6,8 @@ export default function Navbar() {
         <Image
           src="/logo.png"
           alt="Chainable logo"
-          width={100}
-          height={100}
+          width={50}
+          height={50}
           className="mr-2"
         />
         <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
