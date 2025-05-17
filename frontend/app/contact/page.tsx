@@ -1,9 +1,10 @@
+import { Button } from "@/components/ui/button"
+
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-neutral-900 text-white flex items-center justify-center">
-      <form className="w-[90%] rounded-xl shadow-md p-8 space-y-6 border border-white">
+    <div className="flex items-center justify-center mb-2">
+      <form className="w-[90%] rounded-xl shadow-md p-8 space-y-6 border bg-white">
         <h1 className="text-2xl font-semibold">Contact Us</h1>
-
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1">
             Name
@@ -12,11 +13,10 @@ export default function ContactPage() {
             type="text"
             id="name"
             placeholder="Your name"
-            className="w-full px-4 py-2 rounded-md bg-neutral-900 border border-gray-600 focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 rounded-md border border-gray-600 focus:outline-none focus:border-green-500"
             required
           />
         </div>
-
         <div>
           <label htmlFor="email" className="block text-sm font-medium mb-1">
             Email
@@ -25,11 +25,10 @@ export default function ContactPage() {
             type="email"
             id="email"
             placeholder="you@example.com"
-            className="w-full px-4 py-2 rounded-md bg-neutral-900 border border-gray-600 focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 rounded-md border border-gray-600 focus:outline-none focus:border-green-500"
             required
           />
         </div>
-
         <div>
           <label htmlFor="message" className="block text-sm font-medium mb-1">
             Message
@@ -37,18 +36,12 @@ export default function ContactPage() {
           <textarea
             id="message"
             placeholder="Write your message here..."
-            rows={5}
-            className="w-full px-4 py-2 rounded-md bg-neutral-900 border border-gray-600 focus:outline-none focus:border-blue-500"
+            rows={8}
+            className="w-full px-4 py-2 rounded-md border border-gray-600 focus:outline-none focus:border-green-500"
             required
           ></textarea>
         </div>
-
-        <button
-          type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 transition text-white font-medium py-2 rounded-md"
-        >
-          Send Message
-        </button>
+        <Button className="w-full bg-green-400 hover:bg-green-500 transition text-white font-medium py-2 rounded-md">Send message</Button>
       </form>
     </div>
   )
